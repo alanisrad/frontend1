@@ -1,0 +1,49 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:antiquewhite;
+}
+
+h1 {
+    font-weight: lighter;
+    background-color:rgba(143,188,143,0.8);
+    text-align: center;
+}
+
+header {
+   text-align: center;
+}
+
+p {
+    text-align: justify;
+    margin: 50px;
+}
+
+div.enlace {
+    text-align: center;
+}
+.boton {    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+ }
+ .boton:link,
+ .boton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+ }
+ .boton:hover {
+     border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+ }
+
+ section.crazy {
+     background-color: white;
+ }

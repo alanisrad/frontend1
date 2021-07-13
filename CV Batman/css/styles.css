@@ -1,0 +1,87 @@
+body {
+    background-color:antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    background-color:rgba(143,188,143,0.8);
+}
+
+h3 {
+    font-weight: lighter;
+    background-color:rgba(143,188,143,0.8);
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div {
+   text-align: center;
+}
+
+section.loco {
+    background-color: white;
+}
+
+main {
+    margin: 50px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color:darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#texto {
+    margin: 15px;
+}
+
+#uno {
+    margin: 15px;
+}
+
+#dos {
+    margin: 15px;
+}
+
+#tres {
+    margin: 15px;
+}
+
+div.boton {
+    text-align: center;
+}
+.enlaceboton {    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+ }
+ .enlaceboton:link,
+ .enlaceboton:visited {
+    border-top: 1px solid #cccccc;
+    border-bottom: 2px solid #666666;
+    border-left: 1px solid #cccccc;
+    border-right: 2px solid #666666;
+ }
+ .enlaceboton:hover {
+     border-bottom: 1px solid #cccccc;
+    border-top: 2px solid #666666;
+    border-right: 1px solid #cccccc;
+    border-left: 2px solid #666666;
+ }
